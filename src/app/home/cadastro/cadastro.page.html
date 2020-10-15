@@ -1,0 +1,62 @@
+<ion-header>
+    <ion-toolbar color="primary" class="ion-text-center">
+        <ion-title>
+            <img src="https://cdn.discordapp.com/attachments/766065035083644988/766107805320871946/logo-mobiplay.png">
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+    <h2>Cadastro</h2>
+
+    <ion-item>
+        <ion-label position="floating">Nome:</ion-label>
+        <ion-input></ion-input>
+    </ion-item>
+
+    <ion-item>
+        <ion-label position="floating">Sobrenome:</ion-label>
+        <ion-input></ion-input>
+    </ion-item>
+
+    <ion-item>
+        <ion-label position="floating">E-mail:</ion-label>
+        <ion-input></ion-input>
+    </ion-item>
+
+    <ion-item>
+        <ion-label>Sexo</ion-label>
+        <ion-select placeholder="Select One">
+            <ion-select-option value="f">Masculino</ion-select-option>
+            <ion-select-option value="m">Feminino</ion-select-option>
+        </ion-select>
+    </ion-item>
+
+    <ion-item>
+        <ion-label position="floating">Senha:</ion-label>
+        <ion-input type="password"></ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-label position="floating">Confirmação da senha:</ion-label>
+        <ion-input type="password"></ion-input>
+    </ion-item>
+    <i-row>
+        <i-col>
+            <ion-button class="ion-padding">
+                Cadastrar
+            </ion-button>
+        </i-col>
+        <i-col>
+            <ion-button routerLink="/login" class="ion-padding">
+                Já sou cadastrado
+            </ion-button>
+        </i-col>
+    </i-row>
+
+
+
+
+
+
+
+</ion-content>

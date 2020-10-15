@@ -1,0 +1,53 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <img routerLink="cadastro" class="logo-mobiplay"
+      src="https://cdn.discordapp.com/attachments/766065035083644988/766107805320871946/logo-mobiplay.png">
+    <ion-icon routerLink="/login" slot="end" name="person-circle-outline" style="font-size: 30px;" class="ion-padding">
+    </ion-icon>
+  </ion-toolbar>
+  <ion-menu side="start" contentId="main">
+    <ion-header>
+      <ion-toolbar color="primary">
+        <ion-title>Start Menu</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      <ion-list>
+        <ion-item>Menu Item</ion-item>
+        <ion-item>Menu Item</ion-item>
+        <ion-item>Menu Item</ion-item>
+        <ion-item>Menu Item</ion-item>
+        <ion-item>Menu Item</ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+
+</ion-header>
+
+<ion-content>
+  <ion-router-outlet></ion-router-outlet>
+  <ion-tabs>
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="noticia">
+        <ion-icon name="game-controller-outline"></ion-icon>
+        <ion-label>Noticias</ion-label>
+      </ion-tab-button>
+
+      <ion-tab-button tab="conta">
+        <ion-icon name="person-outline"></ion-icon>
+        <ion-label>Conta</ion-label>
+      </ion-tab-button>
+
+      <ion-tab-button tab="conquista">
+        <ion-icon name="trophy-outline"></ion-icon>
+        <ion-label>Conquistas</ion-label>
+      </ion-tab-button>
+
+      <ion-tab-button tab="sobre">
+        <ion-icon name="information-circle-outline"></ion-icon>
+        <ion-label>Sobre</ion-label>
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
+
+</ion-content>

@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-toolbar color="tertiary" class="ion-margin-top ion-text-center">
+    <ion-title>Minha conta</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content class="ion-padding">
+  <h1>Meus dados</h1>
+  <ion-item lines="">
+    <ion-label>Nome:</ion-label>
+    <i-row>
+      <ion-button>
+        <ion-icon name="pencil-outline"></ion-icon>
+      </ion-button>
+      <ion-button>
+        <ion-icon name="save-outline"></ion-icon>
+      </ion-button>
+    </i-row>
+
+  </ion-item>
+  <ion-item lines="">
+    <ion-label>Sobrenome:</ion-label>
+    <i-row slot="end">
+      <ion-button size="small">
+        <ion-icon name="pencil-outline"></ion-icon>
+      </ion-button>
+      <ion-button>
+        <ion-icon name="save-outline"></ion-icon>
+      </ion-button>
+    </i-row>
+  </ion-item>
+  <ion-item lines="">
+    <ion-label>E-mail:</ion-label>
+    <i-row>
+      <ion-button>
+        <ion-icon name="pencil-outline"></ion-icon>
+      </ion-button>
+      <ion-button>
+        <ion-icon name="save-outline"></ion-icon>
+      </ion-button>
+    </i-row>
+  </ion-item>
+  <ion-button class="ion-padding" (click)="onClick()" shape="round">
+    Alterar a senha:
+  </ion-button>
+
+</ion-content>
